@@ -2,11 +2,11 @@
 
 # Plataforma de Gestión de Proyectos y Tareas
 
-Esta es una plataforma colaborativa para la gestión de proyectos y tareas, construida con el stack MERN (TypeScript con MongoDB y VITE), se programó para ser robusta, segura y escalable.
+Esta es una plataforma colaborativa para la gestión de proyectos y tareas, construida con TypeScript, MongoDB y VITE, se programó para ser robusta y segura.
 
 Los usuarios pueden registrarse, crear proyectos, añadir colaboradores, y gestionar tareas a través de un tablero Kanban.
 
-Este proyecto está construido con el siguiente stack de TypeScript:
+Este proyecto está construido bajo el siguiente stack:
 
 Backend
 Runtime: Node.js
@@ -20,13 +20,8 @@ Testing: Jest & Supertest
 Frontend
 Framework: React 18 (con Vite)
 Lenguaje: TypeScript
-Routing: React Router v6
 Estilos: TailwindCSS
 Gestión de Estado: React Context API
-
-
-DevOps & Base de Datos
-Containerización (BD): Docker & Docker Compose
 
 ---
 
@@ -42,8 +37,6 @@ Estructura del Proyecto
     # Define el servicio de la base de datos MongoDB 
 └── README.md 
 
----
-
 Instrucciones de Ejecución
 
 Pasos para levantar el proyecto completo en una máquina local.
@@ -58,7 +51,7 @@ Git: Para clonar el repositorio.
 1. Clonar el Repositorio
 
 --bash
-git clone https://[tu-usuario]@[github.com/](https://github.com/)[tu-usuario]/GestionProyectos.git
+git clone https://github.com/andurg/gestion-proyectos-jelou.git
 cd GestionProyectos
 
 2. Configurar la Base de Datos
