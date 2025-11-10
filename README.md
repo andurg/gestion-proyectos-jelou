@@ -23,7 +23,6 @@ Lenguaje: TypeScript
 Estilos: TailwindCSS
 Gestión de Estado: React Context API
 
----
 
 Estructura del Proyecto
 
@@ -44,9 +43,9 @@ Pasos para levantar el proyecto completo en una máquina local.
 Prerrequisitos
 
 Tener instaladas las siguientes herramientas:
-Node.js: v18 o superior 
-Docker Desktop: Debe estar instalado y "Running"
-Git: Para clonar el repositorio.
+Node.js: v18 o superior - Windows 11 - PowerShell: winget install OpenJS.NodeJS.LTS
+Docker Desktop: Debe estar instalado y Corriendo - Windows 11 - PowerShell: winget install Docker.DockerDesktop
+Git: Para clonar el repositorio  - Windows 11 - PowerShell: winget install Git.Git
 
 1. Clonar el Repositorio
 
