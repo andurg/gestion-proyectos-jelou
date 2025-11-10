@@ -2,7 +2,7 @@
 
 Stack Tecnológico General:
 
-Se eligió un stack MERN (MongoDB, Express, React, Node.js) con enfoque hacia **TypeScript** tanto en el backend como en el frontend. ya que proporciona una gran robustez, consistencia en los tipos de datos (evitando errores entre la API y el cliente) y una mejor experiencia de desarrollo (autocompletado, refactorización segura).
+Se eligió un stack MERN (MongoDB, Express, React, Node.js) consolidando todo con TypeScript tanto en el backend como en el frontend. ya que proporciona una gran robustez, consistencia en los tipos de datos (evitando errores entre la API y el cliente) y una mejor experiencia de desarrollo (autocompletado, refactorización segura).
 
 
 Base de Datos:
