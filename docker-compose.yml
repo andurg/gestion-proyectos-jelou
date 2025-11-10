@@ -1,0 +1,20 @@
+version: '3.8'
+
+services:
+  # Servicio de la Base de Datos MongoDB
+  mongo-db:
+    image: mongo:latest # Usa la imagen oficial de Mongo
+    container_name: gestion-proyectos-db
+    restart: unless-stopped
+    ports:
+      # Expone el puerto de Mongo en la máquina local
+      - "27017:27017" 
+    volumes:
+      - mongo-data:/data/db 
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: admin
+      MONGO_INITDB_ROOT_PASSWORD: password
+
+volumes:
+  # Define el volumen para persistir los datos
+  mongo-data:

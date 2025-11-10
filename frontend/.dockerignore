@@ -1,0 +1,11 @@
+# Ignorar dependencias locales
+node_modules
+
+# Ignorar logs de npm
+npm-debug.log
+
+# Ignorar el build local
+dist
+
+# Ignorar el caché de Vite
+.vite

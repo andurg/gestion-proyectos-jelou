@@ -1,0 +1,24 @@
+# Dependencias (las más importantes)
+node_modules/
+
+# Archivos de build
+dist/
+
+# Logs y archivos de caché
+npm-debug.log
+yarn-error.log
+
+# Archivos de variables de entorno 
+# Esto ignorará el .env de /backend y cualquier otro
+.env
+.env.local
+.env.production
+
+# Caché de Vite
+.vite/
+
+# Datos de Docker (si se crearon localmente)
+mongo-data/
+
+# Configuración del editor
+.vscode/
